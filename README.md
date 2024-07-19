@@ -1,6 +1,6 @@
 # Projeto : Ice Berrys
 
-Este projeto foi desenvolvido com o objetivo de aprender e aplicar os conceitos de Server Side Rendering (SSR), Back for Front e componentização no React utilizando o Next.js. A seguir, detalhamos os principais aspectos e tecnologias utilizadas.
+Este projeto foi desenvolvido com o objetivo de aprender e aplicar os conceitos de Server Side Rendering (SSR) e componentização no React utilizando o Next.js. A seguir, detalhamos os principais aspectos e tecnologias utilizadas.
 
 ## Tecnologias Utilizadas
 - Next.js: Framework React para desenvolvimento de aplicações web com renderização no lado do servidor.
@@ -20,9 +20,6 @@ O projeto inclui funcionalidades básicas de um carrinho de compras, tais como:
 * Atualizar Quantidade: Quantidades dos produtos no carrinho podem ser atualizadas.
 * Calcular Total: O total do carrinho é calculado automaticamente com base nos produtos e suas quantidades.
 * Finalizar Compra: Opção para o usuário prosseguir para a finalização da compra.
-
-### Back for Front
-O padrão Back for Front foi implementado para separar a lógica de negócios da apresentação. O backend é responsável por processar os dados e o frontend por exibir as informações para o usuário. Neste projeto, os dados são buscados do servidor e repassados para os componentes React, que são responsáveis pela renderização.
 
 ### Componentização
 A componentização é um dos principais conceitos do React que deve ser bem aplicada em projetos next para separar componentes *server* (SSR), de componentes *client*. É uma técnica amplamente

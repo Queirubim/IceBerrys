@@ -1,14 +1,8 @@
-import { Product } from 'app/types/productTypes';
+import { products } from 'app/data/data';
 
 import { ProductCard } from './ProductCard';
 
-async function getProducts(): Promise<Product[]> {
-  const response = await fetch('http://localhost:3000/api/products');
-  return response.json();
-}
-
 export const ProductsSection = async () => {
-  const products = await getProducts();
   return (
     <section className="bg-landscape bg-fixed bg-cover">
       <div className="bg-pink-200/50 py-20">

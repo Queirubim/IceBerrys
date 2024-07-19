@@ -24,7 +24,6 @@ export const ProductItem = ({ product }: ProductProps) => {
         <form
           action={async () => {
             'use server';
-            console.log('click');
             return fallCartProduct(product);
           }}
         >

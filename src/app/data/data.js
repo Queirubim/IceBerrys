@@ -220,4 +220,3 @@ export const products = [
     },
   },
 ];
-// menu: products(30)
